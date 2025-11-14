@@ -1,11 +1,12 @@
 .flexbox {
     display: flex;
-    border: 2px solid rgb(148,160,205);
+    border: 2px solid rgb(40, 40, 111);
     padding: 20px;
 }
 
 .item {
-    border: 2px solid rgb(148, 160, 205);
+   border: 2px solid rgb(40, 40, 111);
+   border-radius: 10px;
     padding: 20px;
    
 }
@@ -13,13 +14,14 @@
 #box1 {
     justify-content: center;
     background: rgb(40, 40, 111);
-    border: 2px solid rgb(40, 40, 111);
+    gap: 40px; 
 }
 
 #box2 {
     justify-content: center; 
     border: 2px solid white;
     background: white;
+    gap: 20px;
 }
 
 #box3 {
@@ -32,4 +34,21 @@
     border: 2px solid white;
     justify-content: center;
     background: white; 
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    text-align:center;
+    color:  rgb(40, 40, 111);
+}
+
+#box2text {
+    color: rgb(6, 39, 50);
 }
